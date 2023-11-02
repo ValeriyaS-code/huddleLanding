@@ -4,7 +4,7 @@ body {
 }
 
 #logo {
-    margin-top: 15px;
+    margin-top: 35px;
     margin-left: 70px;
     width: 200px;
 }
@@ -22,8 +22,23 @@ main img {
 
 section {
     padding-top: 45px;
-    margin-left: 100px;
+    margin-left: 125px;
 }
+
+section h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #FCFEF9;
+}
+
+section p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #E3D2F9;
+}
+
 button {
     width: 75px;
 }
