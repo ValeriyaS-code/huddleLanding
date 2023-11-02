@@ -1,0 +1,29 @@
+body {
+    background-image: url("./img/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);
+}
+
+#logo {
+    margin-top: 15px;
+    margin-left: 70px;
+    width: 200px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 70px;
+}
+
+main img {
+    width: 690px;
+    height: 490px;
+}
+
+section {
+    padding-top: 45px;
+    margin-left: 100px;
+}
+button {
+    width: 75px;
+}
