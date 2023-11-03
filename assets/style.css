@@ -1,18 +1,19 @@
 body {
     background-image: url("./img/bg-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat; 
     background-color: hsl(257, 40%, 49%);
+    margin: 70px 50px 50px 50px;
 }
 
 #logo {
-    margin-top: 35px;
-    margin-left: 70px;
     width: 200px;
+    margin-bottom: 35px;
 }
 
 main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    margin: 70px;
 }
 
 main img {
@@ -22,7 +23,7 @@ main img {
 
 section {
     padding-top: 10px;
-    margin-left: 125px;
+    margin-left: 100px;
 }
 
 section h1 {
@@ -50,4 +51,13 @@ button {
     border-radius: 35px;
     border-color: #E3D2F9;
     border-style: solid;
+}
+
+footer i {
+    color: #E3D2F9;
+    float: right;
+    padding: 10px;
+    border: 0.5px solid #E3D2F9;
+    border-radius: 45px;
+    margin: 10px;
 }
