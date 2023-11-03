@@ -21,20 +21,20 @@ main img {
 }
 
 section {
-    padding-top: 45px;
+    padding-top: 10px;
     margin-left: 125px;
 }
 
 section h1 {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 39px;
     font-weight: 600;
     color: #FCFEF9;
 }
 
 section p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #E3D2F9;
 }
