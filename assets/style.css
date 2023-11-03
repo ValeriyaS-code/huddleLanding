@@ -11,13 +11,13 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     margin: 70px;
 }
 
 main img {
-    width: 690px;
-    height: 490px;
+    width: 700px;
+    height: 500px;
 }
 
 section {
@@ -40,5 +40,14 @@ section p {
 }
 
 button {
-    width: 75px;
+    font-family: 'Open Sans', sans-serif;
+    width: 200px;
+    height: 60px;
+    margin-top: 20px;
+    color: hsl(257, 40%, 49%);
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 35px;
+    border-color: #E3D2F9;
+    border-style: solid;
 }
